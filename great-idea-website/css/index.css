@@ -146,7 +146,7 @@ table {
 html,
 body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
 }
 
 h1,
@@ -176,6 +176,11 @@ header nav {
 a {
     color: lightgray;
     text-decoration: none;
+}
+
+header nav a:hover {
+    background: white;
+    color: blue;
 }
 
 header img.logo {
@@ -214,6 +219,11 @@ button {
     background: white;
     margin: 20px 0px;
     border: 1px solid black;
+}
+
+button:hover {
+    background: blue;
+    color: white;
 }
 
 .top.main {
